@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <title>Python Everyday</title>
+  </head>
+  <body>
+    <section class="hero">
+      <nav>
+        <img class="logo" src="../images/logo.png" alt="David Robb's logo" />
+        <ul id="nav-list">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+      <div class="hero-area">
+        <div class="hero-text">
+          <h1>Python Everyday</h1>
+          <h2>David Robb</h2>
+          <p>coding for the future</p>
+          <div class="button">About Me</div>
+        </div>
+        <div class="socials">
+          <div class="social">
+            <a href="https://twitter.com/DavidRobb2" target="_blank"></a
+            ><i class="fab fa-twitter"></i>
+          </div>
+          <div class="social">
+            <a
+              href="https://www.linkedin.com/in/david-robb-42436a20"
+              target="_blank"
+            ></a
+            ><i class="fab fa-linkedin-in"></i>
+          </div>
+          <div class="social">
+            <a href="https://github.com/drobb2020" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="information">
+        <h2>About Me</h2>
+        <p>
+          Hello, my name is David Robb. I am a Support Engineer, and working on
+          developing software coding skills. This site is focused on Python
+          development.
+        </p>
+      </div>
+      <div class="headshot-container">
+        <img
+          src="../images/drobb_2017-transparent.png"
+          alt="David Robb"
+          class="headshot"
+        />
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2>Python Projects</h2>
+      <div class="project-container">
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="./images/python.png"
+            alt="Project Image"
+          />
+          <h3>Python Repository on GitHub</h3>
+          <p class="subtext">
+            This is my Python learning repository on github. This is a collection of lessons to help me learn Python coding. I'm still adding to this repo as I learn more
+            project.
+          </p>
+          <hr />
+          <p class="subtext">
+            <a class="project-link" href="https://github.com/drobb2020/python" target="_blank"
+              >View here</a
+            >
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="./images/url.png"
+            alt="Project Image"
+          />
+          <h3>Django URL Shortener</h3>
+          <p class="subtext">
+            A simple django project to shorten URLs just like bitly. 
+          </p>
+          <hr />
+          <p class="subtext">
+            <a class="project-link" href="https://github.com/drobb2020/django_url_shortener" target="_blank"
+              >View here</a
+            >
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="./images/flask.png"
+            alt="Project Image"
+          />
+          <h3>Python Flask Blog</h3>
+          <p class="subtext">
+            A full featured blog built with Flask. This was a lot of fun to build and a great learning tool for flask.
+          </p>
+          <hr />
+          <p class="subtext">
+            <a class="project-link" href="https://github.com/drobb2020/Flask_blog" target="_blank"
+              >View here</a
+            >
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="./images/django.png"
+            alt="Project Image"
+          />
+          <h3>Python Django Blog</h3>
+          <p class="subtext">
+            A full featured blog site built with Django. It's about 1/2 done and I will deploy it when is is finished.
+          </p>
+          <hr />
+          <p class="subtext">
+            <a class="project-link" href="#" target="_blank"
+              >View here - Coming Soon</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer id="contact">
+      <h2>Contact Me</h2>
+      <div class="form-container">
+        <form action="https://formspree.io/f/mjvpnwpb" method="POST" id="my-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Full Name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="_replyto" placeholder="Email Address">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message here"></textarea>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <div id="status"></div>
+      <div class="copyright">
+        <p>one <span>excession</span> development lab &copy; 2021</p>
+      </div>
+      
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
